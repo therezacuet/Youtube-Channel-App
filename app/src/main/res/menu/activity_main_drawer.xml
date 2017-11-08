@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_favoriteicon"
+            android:title="Favorite" />
+        <item
+            android:id="@+id/nav_rateus"
+            android:icon="@drawable/ic_rate_review"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/nav_rateapps"
+            android:icon="@drawable/ic_rateus"
+            android:title="Rate Apps" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+    </group>
+
+
+
+</menu>

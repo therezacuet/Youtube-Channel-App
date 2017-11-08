@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ins.floating.MainActivity">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+    <!--<item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />-->
+    <item android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/ic_action_stat_share"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/rateUsa"
+        android:title="Rate Us"
+        android:icon="@drawable/ic_rate"
+        app:showAsAction="always"/>
+
+
+</menu>

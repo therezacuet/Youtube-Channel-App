@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/view_to_hide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/arrow_drop_up"/>
+        <RelativeLayout
+            android:id="@+id/playerView"
+            android:layout_width="160dp"
+            android:layout_height="66dp"/>
+        <RelativeLayout
+            android:background="@android:color/black"
+            android:layout_below="@id/playerView"
+            android:layout_width="160dp"
+            android:layout_height="12dp">
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</FrameLayout>

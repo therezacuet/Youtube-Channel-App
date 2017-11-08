@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/web_player_ll">
+
+    <RelativeLayout
+        android:id="@+id/bgControls"
+        android:layout_width="170dp"
+        android:background="@color/colorPrimary"
+        android:layout_height="30dp">
+
+        <ImageView
+            android:id="@+id/moverBtn"
+            android:gravity="left"
+            android:layout_width="33.5dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_mover" />
+
+        <include layout="@layout/controls"
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/web_player_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:background="@android:color/black"
+            android:id="@+id/view_to_hide"
+            android:layout_width="170dp"
+            android:layout_height="140dp">
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>
